@@ -9,7 +9,7 @@ Laura Vanesa Rosas, Justin David Galvis, Gabriel Vera Moreno
 
 
 ## Objetivo
-Desarrollar una herramienta accesible que, a partir de los hábitos de vida y características físicas de cada persona, permita identificar su nivel de obesidad y fomentar la toma de decisiones responsables para mejorar su salud y bienestar
+Desarrollar una herramienta accesible que, a partir de los hábitos de vida y características físicas de cada persona, permita identificar su nivel de obesidad y fomentar la toma de decisiones responsables para mejorar su salud y bienestar.
 
 ## Dataset (Kaggle)
 
@@ -17,40 +17,50 @@ Desarrollar una herramienta accesible que, a partir de los hábitos de vida y ca
 
 <br/>
 
-Este conjunto de datos ayuda a estimar los niveles de obesidad según los hábitos alimentarios, los antecedentes familiares y la condición física. Incluye datos de personas en México, Perú y Colombia, que abarcan 16 características relacionadas con el estilo de vida y la salud, con 2111 registros. Las etiquetas clasifican los niveles de obesidad, desde bajo peso hasta diferentes tipos de obesidad.
+Este conjunto de datos está diseñado para estimar y clasificar los niveles de obesidad a partir de información relacionada con los hábitos alimentarios, antecedentes familiares y condición física de las personas. Contiene 2,111 registros provenientes de individuos de México, Perú y Colombia, e incluye 16 características asociadas al estilo de vida y la salud.
 
-<br/>
-La mayoría de los datos se generaron mediante técnicas sintéticas, mientras que algunos se recopilaron directamente de los usuarios a través de una plataforma web. Resultan útiles para tareas de clasificación, regresión y agrupamiento.
+Las etiquetas corresponden a distintos niveles de obesidad, desde bajo peso hasta diferentes grados de obesidad.
 
-<br/>
-
-Inspiración:
-
-Comprender los factores del estilo de vida que contribuyen a la obesidad puede ayudar con la intervención temprana, las recomendaciones de salud y las aplicaciones de aprendizaje automático en la atención médica.
+Una parte de los datos fue generada mediante técnicas sintéticas, mientras que otra proviene de información recopilada directamente mediante una plataforma web. Esto lo convierte en un recurso versátil para tareas de clasificación, regresión y agrupamiento en el ámbito del análisis de salud.
 
 <br/>
 
-Descripciones de las variables:
+Descripción de las variables:
 
-Género: masculino o femenino.
-Edad: la edad de la persona en años.
-Altura: altura en metros.
-Peso: peso en kilogramos.
-Antecedentes familiares con sobrepeso: si la persona tiene antecedentes familiares de sobrepeso (sí/no).
-FAVC: si la persona consume alimentos ricos en calorías con frecuencia (sí/no).
-FCVC: frecuencia de consumo de verduras (escala del 1 al 3).
-NCP: número de comidas principales al día.
-CAEC: frecuencia de consumo de alimentos entre comidas (nunca, a veces, con frecuencia, siempre).
-SMOKE: si la persona fuma (sí/no).
-CH2O: ingesta diaria de agua (escala del 1 al 3).
-SCC: si la persona controla su ingesta de calorías (sí/no).
-FAF: frecuencia de actividad física (escala del 0 al 3).
-TUE: tiempo dedicado al uso de tecnología (escala del 0 al 3).
-CALC: frecuencia de consumo de alcohol (nunca, a veces, con frecuencia, siempre).
-MTRANS - Principal medio de transporte (Automóvil, Bicicleta, Moto, Transporte Público, Caminar).
-NObeyesdad - Nivel de obesidad (Peso insuficiente, Peso normal, Sobrepeso nivel I, Sobrepeso nivel II, Obesidad tipo I, Obesidad tipo II, Obesidad tipo III).
-Este conjunto de datos proporciona una visión estructurada de cómo los diferentes factores del estilo de vida se relacionan con los niveles de obesidad, lo que lo hace útil para el análisis y la toma de decisiones permitiendo construir un modelo predictivo que clasifique a los individuos en diferentes niveles de obesidad, facilitando la identificación de riesgos y la implementación de estrategias de prevención y tratamiento.
+- Género: Masculino o femenino
 
+- Edad: Edad en años
+
+- Altura: En metros
+
+- Peso: En kilogramos
+
+- Family History: Antecedentes familiares de sobrepeso (sí/no)
+
+- FAVC: Consumo frecuente de alimentos altos en calorías (sí/no)
+
+- FCVC: Frecuencia de consumo de verduras (1–3)
+
+- NCP: Número de comidas principales diarias
+
+- CAEC: Consumo de alimentos entre comidas (nunca, a veces, con frecuencia, siempre)
+
+- SMOKE: Hábito de fumar (sí/no)
+
+- CH2O: Cantidad diaria de agua ingerida (1–3)
+
+- SCC: Control de ingesta calórica (sí/no)
+
+- FAF: Frecuencia de actividad física semanal (0–3)
+
+- TUE: Uso diario de tecnología en horas (0–3)
+
+- CALC: Consumo de alcohol (nunca, a veces, con frecuencia, siempre)
+
+- MTRANS: Medio de transporte principal (automóvil, bicicleta, moto, transporte público, caminar)
+
+- NObeyesdad: Nivel de obesidad (Peso insuficiente, Normal, Sobrepeso I/II, Obesidad I/II/III)
+  
 ## Modelos
 
 ### Machine Learning - Clasificación
