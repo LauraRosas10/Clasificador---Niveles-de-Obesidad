@@ -86,6 +86,12 @@ Reducción de dimensionalidades:
 
 - PCA
 - t-SNE (Mejor tecnica para el proyecto)
+
+## Aplicación del clasificador
+Implementando nuestro mejor modelo supervisado SVM se hizo uso de un formulario que puede llenar el usuario y obtener como resultado el nivel de obesidad en el que esta categorizado.
+
+![Obesidad Formulario](https://github.com/user-attachments/assets/46c56c87-88cf-4709-9617-91c6f3808bcd)
+
   
 ## Enlaces
 [Código](https://drive.google.com/drive/folders/1-g9FQp0KWUW1HhyO0EJcQYdX-Y5W8S8X?usp=sharing)
