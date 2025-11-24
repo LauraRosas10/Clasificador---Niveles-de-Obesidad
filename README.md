@@ -89,7 +89,12 @@ Reducción de dimensionalidades:
   
 ## Enlaces
 [Código](https://drive.google.com/drive/folders/1-g9FQp0KWUW1HhyO0EJcQYdX-Y5W8S8X?usp=sharing)
-[Video]()
-[Repositorio]()
+
+<br/>
+
+[Video](https://youtu.be/qjmbn-60c9E)
+
+<br/>
+[Repositorio](https://github.com/LauraRosas10/Clasificador---Niveles-de-Obesidad)
 
 
