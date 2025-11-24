@@ -93,5 +93,7 @@ Reducción de dimensionalidades:
 [Video](https://youtu.be/qjmbn-60c9E)
 <br/>
 [Repositorio](https://github.com/LauraRosas10/Clasificador---Niveles-de-Obesidad)
+<br/>
+[Presentación "Diapositivas"](https://www.canva.com/design/DAG5nWYOcY4/txSqe6TpnMp123CEWWvB2A/edit)
 
 
